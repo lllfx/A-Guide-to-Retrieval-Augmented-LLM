@@ -117,8 +117,11 @@
             <mxPoint x="623.5" y="603" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="5DyxQi4TGYLblTmWspgL-21" value="分词后统计词频，结合文档长度、" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="5DyxQi4TGYLblTmWspgL-21" value="分词后统计词频，结合文档长度、以及超参来进行计算的" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="150" y="970" width="410" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5DyxQi4TGYLblTmWspgL-22" value="分词后单词表示单词的向量是稀疏的，每个单词有个位置，如果文档中没有这个单词，那么这个位置就为0." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="150" y="1030" width="410" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
